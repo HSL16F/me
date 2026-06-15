@@ -185,8 +185,8 @@
         if (titleEl) titleEl.textContent = 'Post not found';
         if (dateEl)  dateEl.textContent  = '';
         if (readEl)  readEl.textContent  = '';
-        prose.innerHTML = '<p style="color:var(--muted)">This post hasn’t been published yet. '
-          + 'Drop a Markdown file at <code>posts/' + slug + '.md</code> and it’ll appear here.</p>';
+        prose.innerHTML = '<p style="color:var(--muted)">This post hasn\'t been published yet. '
+          + 'Drop a Markdown file at <code>posts/' + slug + '.md</code> and it\'ll appear here.</p>';
       });
   }
 

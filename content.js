@@ -7,13 +7,12 @@ window.SITE = {
   // ── Home ────────────────────────────────────────────────
   home: {
     hero: {
-      heading:    'Small, sharp tools',
-      headingDim: '& notes on the systems underneath them.',
-      lead:       "I'm an engineer and sometime-researcher. I work on open-source projects in my spare time, write about distributed systems and the craft of software, and chase a few research questions on the side.",
+      heading:    "Hi I'm HSLF16",
+      headingDim: '& and this is my website. See below for research, blog posts and resume',
+      lead:       "I'm an engineer at a bank and like to explore quantitiatve approaches to the social sciences on my own time.",
       meta: [
         'Making things related to economics, sociology, international relations and general societal good',
         'open to research collabs',
-        'somewhere with good coffee',
       ],
     },
 

@@ -9,7 +9,7 @@ window.SITE = {
     hero: {
       heading:    "Hi I'm HSLF16",
       headingDim: '& and this is my website. See below for research, blog posts and resume',
-      lead:       "I'm an engineer at a bank and like to explore quantitiatve approaches to the social sciences on my own time.",
+      lead:       "I'm an engineer at a bank and like to explore quantitative approaches to the social sciences on my own time.",
       meta: [
         'Making things related to economics, sociology, international relations and general societal good',
         'open to research collabs',

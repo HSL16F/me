@@ -3,55 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HSLF16</title>
+  <title>Projects · HSLF16</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script>(function(){try{var t=localStorage.getItem('hslf-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
-<body data-page="home">
-  <div class="wrap wrap--wide">
+<body data-page="projects">
+  <div class="wrap">
 
     <header class="site-header">
       <a class="brand" href="index.html">HSLF16</a>
       <nav class="nav">
-        <a href="index.html" class="active">home</a>
+        <a href="index.html">home</a>
         <a href="blog.html">blog</a>
-        <a href="projects.html">projects</a>
+        <a href="projects.html" class="active">projects</a>
         <a href="research.html">research</a>
         <button class="theme-toggle" type="button" aria-label="Toggle colour theme"></button>
       </nav>
     </header>
 
-    <section class="hero">
-      <p class="kicker">// HSLF16</p>
-      <h1></h1>
-      <p class="lead" data-bind="home.hero.lead"></p>
-      <div class="meta-strip" id="hero-meta"></div>
+    <section class="page-intro">
+      <p class="eyebrow">// open source</p>
+      <h1>Projects</h1>
+      <p data-bind="projects.intro"></p>
     </section>
 
-    <section>
-      <div class="section-head">
-        <p class="eyebrow">// selected work</p>
-        <a class="more" href="projects.html">all projects →</a>
-      </div>
-      <div class="proj-grid" id="home-projects"></div>
+    <section style="margin-top:46px;">
+      <p class="subhead">maintained</p>
+      <div class="cards" id="projects-maintained"></div>
     </section>
 
-    <section class="writing">
-      <div class="section-head">
-        <p class="eyebrow">// writing</p>
-        <a class="more" href="blog.html">all posts →</a>
-      </div>
-      <div id="home-posts"></div>
-    </section>
-
-    <section>
-      <p class="eyebrow" style="margin-bottom:16px;">// research</p>
-      <p class="lede" data-bind="home.research.lede"></p>
-      <div class="tags" id="home-research-tags" style="margin-top:18px;"></div>
-      <a class="more" href="research.html" style="display:inline-block;margin-top:18px;">publications &amp; talks →</a>
+    <section style="margin-top:46px;">
+      <p class="subhead">experiments &amp; archived</p>
+      <div class="cards" id="projects-experiments"></div>
     </section>
 
     <footer class="site-footer">
